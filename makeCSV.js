@@ -17,3 +17,4 @@ fs.writeFile('pet-data.csv', data, (error) => {
     }
     console.log('success writing to csv file')
 })
+
