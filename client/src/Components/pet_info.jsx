@@ -23,7 +23,7 @@ class PetInfo extends React.Component {
     axios
       .get(
         "http://ec2-52-90-48-243.compute-1.amazonaws.com:3000/api/info/" +
-          this.state.pet_id
+        this.state.pet_id
       )
       .then(response => {
         this.setState({
